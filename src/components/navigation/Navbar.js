@@ -5,7 +5,7 @@ import logo_boomslag from "assets/img/boomslag-black.png";
 
 function Navbar() {
   return (
-    <nav className='w-full py-4 top-0 fixed'>
+    <nav className='w-full py-6 top-0 fixed'>
       <div className='bg-white px-4 sm:px-6'>
         <div className='-ml-4 -mt-2 flex flex-wrap items-center justify-between sm:flex-nowrap md:px-14 px-2'>
           <div className='ml-4 mt-2'>
@@ -14,27 +14,32 @@ function Navbar() {
           <div className='ml-4 mt-2 flex-shrink-0'>
             <Link
               to='Cases'
-              className='text-lg inline-flex font-medium leading-6 text-gray-900 hover:underline hover:underline-offset-4 mx-4'>
+              className='text-lg inline-flex font-medium leading-6 text-gray-900 border-b-2 border-white hover:border-orange-500 mx-4'>
+              Cases
+            </Link>
+            <Link
+              to='Services'
+              className='text-lg inline-flex font-medium leading-6 text-gray-900 border-b-2 border-white hover:border-orange-500 mx-4'>
               Services
             </Link>
             <Link
               to='AboutUs'
-              className='text-lg inline-flex font-medium leading-6 text-gray-900 hover:underline hover:underline-offset-4 mx-4'>
+              className='text-lg inline-flex font-medium leading-6 text-gray-900 border-b-2 border-white hover:border-orange-500 mx-4'>
               AboutUs
             </Link>
             <Link
               to='Careers'
-              className='text-lg inline-flex font-medium leading-6 text-gray-900 hover:underline hover:underline-offset-4 mx-4'>
+              className='text-lg inline-flex font-medium leading-6 text-gray-900 border-b-2 border-white hover:border-orange-500 mx-4'>
               Careers
             </Link>
             <Link
               to='Blog'
-              className='text-lg inline-flex font-medium leading-6 text-gray-900 hover:underline hover:underline-offset-4 mx-4'>
+              className='text-lg inline-flex font-medium leading-6 text-gray-900 border-b-2 border-white hover:border-orange-500 mx-4'>
               Blog
             </Link>
             <Link
               to='Contact'
-              className='text-lg inline-flex font-medium leading-6 text-gray-900 hover:underline hover:underline-offset-4 mx-4'>
+              className='text-lg inline-flex font-medium leading-6 text-gray-900 border-b-2 border-white hover:border-orange-500 mx-4'>
               Contact
             </Link>
             <button

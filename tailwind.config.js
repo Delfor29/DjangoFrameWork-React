@@ -9,15 +9,5 @@ module.exports = {
       }
     },
   },
-  plugins: [
-    function({addUtilities}) {
-      const extendUnderline = {
-        '.underline': {
-          'textDecoration': 'underline',
-          'text-decoration-color': '#ff561e'
-        },
-      }
-      addUtilities(extendUnderline)
-    }
-  ],
+  plugins: [],
 };
